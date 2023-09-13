@@ -128,7 +128,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: bloodfan/taski_gateway:latest
-username
+
   deploy:
     runs-on: ubuntu-latest
     needs: 
